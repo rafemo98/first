@@ -1,0 +1,69 @@
+body, h1, h2, h3, h4, p, a {
+    font-size: 100%;
+    margin: 0;
+    font-weight: normal;
+}
+* {
+    box-sizing: border-box;
+}
+body {
+    font-family: 'Helvetica', 'Arial', sans-serif;
+}
+.header {
+    height: 100vh;
+    background-image: url(image/header-image.jpg);
+    background-size: cover;
+    background-position: center;
+    text-align: center;
+}
+.overlay {
+    height: 100%;
+    width: 100%;
+    background-color: rgba(0, 0, 0, .7);
+    display: flex;
+}
+.header-title {
+    font-size: 140px;
+    font-weight: 500;
+    text-transform: uppercase;
+    color: #fff;
+    margin: auto;
+}
+.content {
+    font-size: 0;
+    width: 790px;
+    margin: 100px auto 50px;
+}
+.card {
+    width: 350px;
+    margin-bottom: 60px;
+    margin-right: 90px;
+    padding: 45px 45px 70px;
+    display: inline-block;
+    box-shadow: 4px 4px 5px rgba(250, 50, 50, .7);
+}
+.no-right-margin {
+    margin-right: 0;
+}
+.card-image {
+    width: 100%;
+    margin-bottom: 25px;
+}
+.card-title {
+    font-size: 24px;
+    font-weight: 500;
+    margin-bottom: 10px;
+}
+.card-text {
+    font-size: 16px;
+}
+.footer {
+    height: 300px;
+    background-color: #000;
+    display: flex;
+}
+.footer-author {
+    font-size: 24px;
+    color: #fff;
+    margin: auto;
+}
